@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <!-- groups testing
+     <groups>
+		<run>
+			<include name="group1"></include>
+		</run>
+	</groups>
+    <classes>
+      <class name="Framework.Testntass8.classnew1"/>
+      <class name="Framework.Testntass8.classnew2"/>
+      <class name="Framework.Testntass8.classnew3"/>
+      <class name="Framework.Testntass8.classnew4"/>
+    </classes>  -->
+    <!-- priority testing
+    <classes>
+		<class name="Framework.Testntass8.classpriority1"/>
+		<class name="Framework.Testntass8.classpriority2"/>
+	</classes>
+	-->
+	
+	<classes>
+		<class name="classloginwithreport"/>
+	</classes>
+	
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
